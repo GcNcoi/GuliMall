@@ -43,7 +43,6 @@ public class BrandController {
     @RequestMapping("/list")
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = brandService.queryPage(params);
-
         return R.ok().put("page", page);
     }
 
@@ -82,7 +81,7 @@ public class BrandController {
      */
     @RequestMapping("/update")
     public R update(@Validated(UpdateGroup.class) @RequestBody BrandEntity brand){
-        brandService.updateById(brand);
+        brandService.updateDetail(brand);
 
         return R.ok();
     }
