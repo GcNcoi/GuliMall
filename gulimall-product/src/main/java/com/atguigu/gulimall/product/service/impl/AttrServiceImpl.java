@@ -9,6 +9,7 @@ import com.atguigu.gulimall.product.entity.AttrGroupEntity;
 import com.atguigu.gulimall.product.entity.CategoryEntity;
 import com.atguigu.gulimall.product.service.CategoryService;
 import com.atguigu.gulimall.product.vo.AttrGroupRelationVo;
+import com.atguigu.gulimall.product.vo.AttrGroupWithAttrsVo;
 import com.atguigu.gulimall.product.vo.AttrRespVo;
 import com.atguigu.gulimall.product.vo.AttrVo;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
@@ -191,7 +192,7 @@ public class AttrServiceImpl extends ServiceImpl<AttrDao, AttrEntity> implements
         List<Long> attrIds = entities.stream().map((attr) -> {
             return attr.getAttrId();
         }).collect(Collectors.toList());
-        if (attrIds == null && attrIds.size() == 0) {
+        if (attrIds == null || attrIds.size() == 0) {
             return null;
         }
         Collection<AttrEntity> attrEntities = this.listByIds(attrIds);
@@ -208,13 +209,6 @@ public class AttrServiceImpl extends ServiceImpl<AttrDao, AttrEntity> implements
         attrAttrgroupRelationDao.deleteBatchRelation(entities);
     }
 
-    /*
-     * @description: 获取当前分组没有关联的所有属性
-     * @author: Gxf
-     * @date: 2025/12/30 16:43
-     * @param:
-     * @return:
-     **/
     @Override
     public PageUtils getNoRelationAttr(Map<String, Object> params, Long attrgroupId) {
         // 1.当前分组只能关联自己所属的分类里面的所有属性

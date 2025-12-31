@@ -1,6 +1,7 @@
 package com.atguigu.gulimall.product.service;
 
 import com.atguigu.gulimall.product.vo.AttrGroupRelationVo;
+import com.atguigu.gulimall.product.vo.AttrGroupWithAttrsVo;
 import com.atguigu.gulimall.product.vo.AttrRespVo;
 import com.atguigu.gulimall.product.vo.AttrVo;
 import com.baomidou.mybatisplus.extension.service.IService;
@@ -33,6 +34,13 @@ public interface AttrService extends IService<AttrEntity> {
 
     void deleteRelation(AttrGroupRelationVo[] vos);
 
+    /**
+     * @description: 获取当前分组没有关联的所有属性
+     * @author: Gxf
+     * @date: 2025/12/30 16:43
+     * @param:
+     * @return:
+     **/
     PageUtils getNoRelationAttr(Map<String, Object> params, Long attrgroupId);
 }
 
