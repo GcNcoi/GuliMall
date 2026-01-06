@@ -27,6 +27,7 @@ import com.atguigu.common.utils.R;
 @RestController
 @RequestMapping("ware/purchasedetail")
 public class PurchaseDetailController {
+
     @Autowired
     private PurchaseDetailService purchaseDetailService;
 
@@ -39,7 +40,6 @@ public class PurchaseDetailController {
 
         return R.ok().put("page", page);
     }
-
 
     /**
      * 信息

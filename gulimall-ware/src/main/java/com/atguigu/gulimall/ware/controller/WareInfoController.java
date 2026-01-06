@@ -27,6 +27,7 @@ import com.atguigu.common.utils.R;
 @RestController
 @RequestMapping("ware/wareinfo")
 public class WareInfoController {
+
     @Autowired
     private WareInfoService wareInfoService;
 
