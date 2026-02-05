@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb7054e3-5754-4004-9892-bc9791bba82e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/config/GulimallElasticSearchConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/es/SkuEsModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/SpuInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/SpuInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/AttrDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/AttrDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/AttrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/AttrService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SpuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SpuInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/AttrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/AttrServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SpuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SpuInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/AttrDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/AttrDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,43 +64,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.GulimallSearchApplicationTests.contextLoads.executor": "Run",
-    "JUnit.GulimallSearchApplicationTests.indexData.executor": "Run",
-    "JUnit.GulimallSearchApplicationTests.searchData.executor": "Run",
-    "Maven.gulimall-search [clean].executor": "Run",
-    "Maven.gulimall-ware [clean].executor": "Run",
-    "Maven.gulimall-ware [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.GulimallCouponApplication.executor": "Debug",
-    "Spring Boot.GulimallGatewayApplication.executor": "Debug",
-    "Spring Boot.GulimallMemberApplication.executor": "Debug",
-    "Spring Boot.GulimallProductApplication.executor": "Debug",
-    "Spring Boot.GulimallSearchApplication.executor": "Run",
-    "Spring Boot.GulimallThirdPartyApplication.executor": "Debug",
-    "Spring Boot.GulimallWareApplication.executor": "Debug",
-    "Spring Boot.RenrenApplication.executor": "Debug",
-    "Spring Boot.RenrenGeneratorApplication.executor": "Debug",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/ProjectCode(BackEnd)/GuliMall/gulimall-ware/src/main/java/com/atguigu/gulimall/ware",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.GulimallSearchApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GulimallSearchApplicationTests.indexData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GulimallSearchApplicationTests.searchData.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gulimall-search [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gulimall-ware [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gulimall-ware [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.GulimallCouponApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.GulimallGatewayApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.GulimallMemberApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.GulimallProductApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.GulimallSearchApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GulimallThirdPartyApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.GulimallWareApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.RenrenApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.RenrenGeneratorApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/ProjectCode(BackEnd)/GuliMall/gulimall-ware/src/main/java/com/atguigu/gulimall/ware&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -352,6 +356,9 @@
       <workItem from="1767575178821" duration="1204000" />
       <workItem from="1767576553603" duration="18580000" />
       <workItem from="1767668959158" duration="26255000" />
+      <workItem from="1768471918727" duration="95000" />
+      <workItem from="1768472035534" duration="6042000" />
+      <workItem from="1769564075800" duration="52283000" />
     </task>
     <servers />
   </component>

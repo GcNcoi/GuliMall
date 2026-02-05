@@ -16,8 +16,6 @@ import com.atguigu.gulimall.product.service.SpuInfoService;
 import com.atguigu.common.utils.PageUtils;
 import com.atguigu.common.utils.R;
 
-
-
 /**
  * spu信息
  *
@@ -28,8 +26,18 @@ import com.atguigu.common.utils.R;
 @RestController
 @RequestMapping("product/spuinfo")
 public class SpuInfoController {
+
     @Autowired
     private SpuInfoService spuInfoService;
+
+    /**
+     * 商品上架
+     */
+    @RequestMapping("/{spuId}/up}")
+    public R spuUp(@PathVariable("spuId") Long spuId){
+        spuInfoService.up(spuId);
+        return R.ok();
+    }
 
     /**
      * 列表
