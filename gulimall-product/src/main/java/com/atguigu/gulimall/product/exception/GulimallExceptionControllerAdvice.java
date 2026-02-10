@@ -20,7 +20,7 @@ import java.util.Map;
  * @date: 2025年12月25日 11:56
  */
 @Slf4j
-@RestControllerAdvice(basePackages = "com.atguigu.gulimall.product.controller")
+@RestControllerAdvice(basePackages = "com.atguigu.gulimall.product.app")
 //@ControllerAdvice(basePackages = "com.atguigu.gulimall.product.controller")
 public class GulimallExceptionControllerAdvice {
 
