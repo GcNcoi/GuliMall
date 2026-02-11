@@ -15,8 +15,6 @@ import com.atguigu.gulimall.product.service.AttrAttrgroupRelationService;
 import com.atguigu.common.utils.PageUtils;
 import com.atguigu.common.utils.R;
 
-
-
 /**
  * 属性&属性分组关联
  *
@@ -25,8 +23,9 @@ import com.atguigu.common.utils.R;
  * @date 2025-12-17 17:33:07
  */
 @RestController
-@RequestMapping("product/attrattrgrouprelation")
+@RequestMapping("/product/attrattrgrouprelation")
 public class AttrAttrgroupRelationController {
+
     @Autowired
     private AttrAttrgroupRelationService attrAttrgroupRelationService;
 
@@ -39,7 +38,6 @@ public class AttrAttrgroupRelationController {
 
         return R.ok().put("page", page);
     }
-
 
     /**
      * 信息
